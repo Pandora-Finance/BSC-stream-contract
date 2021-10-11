@@ -1,5 +1,7 @@
 # BSC-stream-contract
 
+<a href="https://ibb.co/Y3s5Lz4"><img src="https://i.ibb.co/56HQRNX/download-1.png" alt="download-1" border="0"></a>
+
 The Main contract is named "Sablier.sol"
 
 The BSC-Stream Contract Can be summed up in Five Functions 
@@ -15,6 +17,8 @@ The BSC-Stream Contract Can be summed up in Five Functions
 - startTime : The unix timestamp for when the stream starts, in seconds.
 - stopTime : The unix timestamp for when the stream stops, in seconds.
 - RETURN : The stream's id as an unsigned integer on success, reverts on error.
+
+<a href="https://ibb.co/FYQsSZ3"><img src="https://i.ibb.co/NN018DC/download.png" alt="download" border="0"></a>
   
 ### 2. Withdraw From Stream
    The withdraw from stream function transfers an amount of money to the recipient's address. The amount must be less than or equal to the available balance. This function can only be called by the sender or the recipient of the stream, not any third-party.
