@@ -7,7 +7,7 @@ The Main contract is named "BSC_Stream.sol"
 The BSC-Stream Contract Can be summed up in Five Functions 
 
 ### 1. Create Stream
-   The create stream function transfers the tokens into the Sablier smart contract, stamping the rules of the stream into the blockchain. As soon as the clock hits the start time of the stream, a little bit of money starts getting "transferred" from the sender to the recipient once every second.‌
+   The create stream function transfers the tokens into the BSC-Stream smart contract, stamping the rules of the stream into the blockchain. As soon as the clock hits the start time of the stream, a little bit of money starts getting "transferred" from the sender to the recipient once every second.‌
   The Function parameters are 
 
 - msg.sender : The address which shall fund the stream, and pay the recipient in real-time.
@@ -18,7 +18,7 @@ The BSC-Stream Contract Can be summed up in Five Functions
 - stopTime : The unix timestamp for when the stream stops, in seconds.
 - RETURN : The stream's id as an unsigned integer on success, reverts on error.
 
-<a href="https://ibb.co/FYQsSZ3"><img src="https://i.ibb.co/NN018DC/download.png" alt="download" border="0"></a>
+<a href="https://ibb.co/Wkh321m"><img src="https://i.ibb.co/k47ySFN/BSC-Stream.png" alt="BSC-Stream" border="0"></a>
   
 ### 2. Withdraw From Stream
    The withdraw from stream function transfers an amount of money to the recipient's address. The amount must be less than or equal to the available balance. This function can only be called by the sender or the recipient of the stream, not any third-party.
