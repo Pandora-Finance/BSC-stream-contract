@@ -18,7 +18,7 @@ The BSC-Stream Contract Can be summed up in Five Functions
 - stopTime : The unix timestamp for when the stream stops, in seconds.
 - RETURN : The stream's id as an unsigned integer on success, reverts on error.
 
-<a href="https://ibb.co/Wkh321m"><img src="https://i.ibb.co/k47ySFN/BSC-Stream.png" alt="BSC-Stream" border="0"></a>
+<a href="https://ibb.co/vP0LKP7"><img src="https://i.ibb.co/sw8sMw0/BSC-Stream.png" alt="BSC-Stream" border="0"></a><br />
   
 ### 2. Withdraw From Stream
    The withdraw from stream function transfers an amount of money to the recipient's address. The amount must be less than or equal to the available balance. This function can only be called by the sender or the recipient of the stream, not any third-party.
