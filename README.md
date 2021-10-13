@@ -84,7 +84,7 @@ Block Explorer: https://bscscan.com  <br />
 
 NOTE: We are currently using the BSC TestNetwork for the test phase of our contract. hence fill the info likewise.  <br />
 
-NOTE: Currently active deployed contract on the BSC TestNetwork at Address: <a href="https://testnet.bscscan.com/address/0x8582f3B4CFd18b8FA66A352AE25F6D2DC2A359e3"> 0x8582f3B4CFd18b8FA66A352AE25F6D2DC2A359e3 </a>  <br />
+NOTE: Currently active deployed contract on the BSC TestNetwork at Address: <a href="https://testnet.bscscan.com/address/0xd8AD276D2e60ebf1e8364277DD877e6334Ed9A87"> 0xd8AD276D2e60ebf1e8364277DD877e6334Ed9A87 </a>  <br />
 
       
 
