@@ -1,10 +1,10 @@
 pragma solidity >=0.5.17;
 
 /**
- * @title ISablier
- * @author Sablier
+ * @title IBSC_Stream
+ * @author BSC_Stream
  */
-interface ISablier {
+interface IBSC_Stream {
     /**
      * @notice Emits when a stream is successfully created.
      */
