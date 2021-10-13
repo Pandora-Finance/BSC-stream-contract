@@ -1,8 +1,8 @@
 pragma solidity =0.5.17;
 
 /**
- * @title Sablier Types
- * @author Sablier
+ * @title BSC_Stream Types
+ * @author BSC_Stream
  */
 library Types {
     struct Stream {
