@@ -2,7 +2,7 @@
 
 <a href="https://ibb.co/Y3s5Lz4"><img src="https://i.ibb.co/56HQRNX/download-1.png" alt="download-1" border="0"></a>
 
-The Main contract is named "Sablier.sol"
+The Main contract is named "BSC_Stream.sol"
 
 The BSC-Stream Contract Can be summed up in Five Functions 
 
