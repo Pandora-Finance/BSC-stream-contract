@@ -5,15 +5,15 @@ import "@openzeppelin/contracts/token/ERC20/SafeERC20.sol";
 import "@openzeppelin/contracts/utils/ReentrancyGuard.sol";
 import "../node_modules/shared-contracts/compound/CarefulMath.sol";
 
-import "./interfaces/ISablier.sol";
+import "./interfaces/IBSC_Stream.sol"
 import "./Types.sol";
 
 /**
- * @title Sablier
- * @author Sablier
+ * @title BSC_Stream
+ * @author BSC_Stream
  * @notice Money streaming.
  */
-contract Sablier is ISablier, ReentrancyGuard, CarefulMath {
+contract BSC_Stream is IBSC_Stream, ReentrancyGuard, CarefulMath {
     using SafeERC20 for IERC20;
 
     /*** Storage Properties ***/
@@ -25,7 +25,7 @@ contract Sablier is ISablier, ReentrancyGuard, CarefulMath {
 
     /**
      * @notice The stream objects identifiable by their unsigned integer ids.
-     */
+     **/
     mapping(uint256 => Types.Stream) private streams;
 
     /*** Modifiers ***/
