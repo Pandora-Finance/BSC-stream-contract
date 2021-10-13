@@ -4,7 +4,7 @@
 
 The Main contract is named "BSC_Stream.sol"
 
-The BSC-Stream Contract Can be summed up in Five Functions 
+The BSC_Stream Contract Can be summed up in Five Functions 
 
 ### 1. Create Stream
    The create stream function transfers the tokens into the BSC-Stream smart contract, stamping the rules of the stream into the blockchain. As soon as the clock hits the start time of the stream, a little bit of money starts getting "transferred" from the sender to the recipient once every second.‌
